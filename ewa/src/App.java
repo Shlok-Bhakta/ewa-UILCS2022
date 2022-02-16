@@ -3,7 +3,6 @@ import java.io.File;
 
 import java.lang.Math;
 
-
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(new File("ewaJUD.dat"));
@@ -22,19 +21,19 @@ public class App {
 
                     totalpie += ((Math.PI * Math.pow(radius, 2)) * depth);
                     totalpie = roundtwo(totalpie);
-                    System.out.printf("%.2f", totalpie );
+                    System.out.printf("%.2f", totalpie);
                     System.out.println();
                 }
                 if (action.equals("EAT")) {
                     double volume = scanner.nextDouble();
                     totalpie -= volume;
                     totalpie = roundtwo(totalpie);
-                    
-                       // System.out.printf("2f", totalpie);
-                    
-                        System.out.printf("%.2f", totalpie );
+
+                    // System.out.printf("2f", totalpie);
+
+                    System.out.printf("%.2f", totalpie);
                     System.out.println();
-                    
+
                 }
 
             }
